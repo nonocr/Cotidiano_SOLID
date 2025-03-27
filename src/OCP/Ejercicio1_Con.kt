@@ -17,7 +17,7 @@ class Grafica {
 
 fun main() {
     val grafica = Grafica()
-    println("Barras: ${grafica.dibujar("Barras")}")
-    println("Lineas: ${grafica.dibujar("")}")
+    println("${grafica.dibujar(Barras(), "Barras")}")
+    println("${grafica.dibujar(Lineas(), "Lineas")}")
 
 }
